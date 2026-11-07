@@ -68,7 +68,7 @@ jobs:
           echo -e "\033[34m[清理旧文件]\033[0m"
           rm -rf ./*
           echo -e "\033[34m[下载最新 worker.zip]\033[0m"
-          wget -O worker.js "$DOWNLOAD_URL"
+          wget -O _worker.js "$DOWNLOAD_URL"
           echo -e "\033[34m[解压 worker.zip]\033[0m"
           # unzip worker.zip
           echo -e "\033[34m[删除 worker.zip]\033[0m"
